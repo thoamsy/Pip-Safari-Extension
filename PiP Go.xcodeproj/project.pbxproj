@@ -69,6 +69,7 @@
 		59F77E06255E850E00EB17B1 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		59F77E08255E850E00EB17B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59F77E09255E850E00EB17B1 /* PiP_Go_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiP_Go_Extension.entitlements; sourceTree = "<group>"; };
+		59F77E19255E977700EB17B1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +138,7 @@
 				59F77E08255E850E00EB17B1 /* Info.plist */,
 				59F77E09255E850E00EB17B1 /* PiP_Go_Extension.entitlements */,
 				59F77DF7255E850D00EB17B1 /* Resources */,
+				59F77E19255E977700EB17B1 /* README.md */,
 			);
 			path = "PiP Go Extension";
 			sourceTree = "<group>";
