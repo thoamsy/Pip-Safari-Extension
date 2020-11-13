@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F77DE0255E850A00EB17B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F77DDF255E850A00EB17B1 /* AppDelegate.swift */; };
+		59F77DE3255E850A00EB17B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DE1255E850A00EB17B1 /* Main.storyboard */; };
+		59F77DE5255E850A00EB17B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F77DE4255E850A00EB17B1 /* ViewController.swift */; };
+		59F77DE7255E850D00EB17B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DE6255E850D00EB17B1 /* Assets.xcassets */; };
+		59F77DEE255E850D00EB17B1 /* PiP Go Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 59F77DED255E850D00EB17B1 /* PiP Go Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		59F77DF3255E850D00EB17B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F77DF2255E850D00EB17B1 /* Cocoa.framework */; };
+		59F77DF6255E850D00EB17B1 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F77DF5255E850D00EB17B1 /* SafariWebExtensionHandler.swift */; };
+		59F77DF9255E850E00EB17B1 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DF8255E850D00EB17B1 /* _locales */; };
+		59F77DFB255E850E00EB17B1 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DFA255E850E00EB17B1 /* images */; };
+		59F77DFD255E850E00EB17B1 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DFC255E850E00EB17B1 /* manifest.json */; };
+		59F77DFF255E850E00EB17B1 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 59F77DFE255E850E00EB17B1 /* background.js */; };
+		59F77E01255E850E00EB17B1 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 59F77E00255E850E00EB17B1 /* content.js */; };
+		59F77E03255E850E00EB17B1 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 59F77E02255E850E00EB17B1 /* popup.html */; };
+		59F77E05255E850E00EB17B1 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 59F77E04255E850E00EB17B1 /* popup.css */; };
+		59F77E07255E850E00EB17B1 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 59F77E06255E850E00EB17B1 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F77DEF255E850D00EB17B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F77DD3255E850A00EB17B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F77DEC255E850D00EB17B1;
+			remoteInfo = "PiP Go Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59F77E0F255E850E00EB17B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				59F77DEE255E850D00EB17B1 /* PiP Go Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59F77DDB255E850A00EB17B1 /* PiP Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PiP Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F77DDE255E850A00EB17B1 /* PiP_Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiP_Go.entitlements; sourceTree = "<group>"; };
+		59F77DDF255E850A00EB17B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59F77DE2255E850A00EB17B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59F77DE4255E850A00EB17B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59F77DE6255E850D00EB17B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F77DE8255E850D00EB17B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F77DED255E850D00EB17B1 /* PiP Go Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PiP Go Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F77DF2255E850D00EB17B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		59F77DF5255E850D00EB17B1 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		59F77DF8255E850D00EB17B1 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		59F77DFA255E850E00EB17B1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		59F77DFC255E850E00EB17B1 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		59F77DFE255E850E00EB17B1 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		59F77E00255E850E00EB17B1 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		59F77E02255E850E00EB17B1 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		59F77E04255E850E00EB17B1 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		59F77E06255E850E00EB17B1 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		59F77E08255E850E00EB17B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F77E09255E850E00EB17B1 /* PiP_Go_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiP_Go_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F77DD8255E850A00EB17B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F77DEA255E850D00EB17B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F77DF3255E850D00EB17B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F77DD2255E850A00EB17B1 = {
+			isa = PBXGroup;
+			children = (
+				59F77DDD255E850A00EB17B1 /* PiP Go */,
+				59F77DF4255E850D00EB17B1 /* PiP Go Extension */,
+				59F77DF1255E850D00EB17B1 /* Frameworks */,
+				59F77DDC255E850A00EB17B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F77DDC255E850A00EB17B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F77DDB255E850A00EB17B1 /* PiP Go.app */,
+				59F77DED255E850D00EB17B1 /* PiP Go Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F77DDD255E850A00EB17B1 /* PiP Go */ = {
+			isa = PBXGroup;
+			children = (
+				59F77DDE255E850A00EB17B1 /* PiP_Go.entitlements */,
+				59F77DDF255E850A00EB17B1 /* AppDelegate.swift */,
+				59F77DE1255E850A00EB17B1 /* Main.storyboard */,
+				59F77DE4255E850A00EB17B1 /* ViewController.swift */,
+				59F77DE6255E850D00EB17B1 /* Assets.xcassets */,
+				59F77DE8255E850D00EB17B1 /* Info.plist */,
+			);
+			path = "PiP Go";
+			sourceTree = "<group>";
+		};
+		59F77DF1255E850D00EB17B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59F77DF2255E850D00EB17B1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F77DF4255E850D00EB17B1 /* PiP Go Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59F77DF5255E850D00EB17B1 /* SafariWebExtensionHandler.swift */,
+				59F77E08255E850E00EB17B1 /* Info.plist */,
+				59F77E09255E850E00EB17B1 /* PiP_Go_Extension.entitlements */,
+				59F77DF7255E850D00EB17B1 /* Resources */,
+			);
+			path = "PiP Go Extension";
+			sourceTree = "<group>";
+		};
+		59F77DF7255E850D00EB17B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59F77DF8255E850D00EB17B1 /* _locales */,
+				59F77DFA255E850E00EB17B1 /* images */,
+				59F77DFC255E850E00EB17B1 /* manifest.json */,
+				59F77DFE255E850E00EB17B1 /* background.js */,
+				59F77E00255E850E00EB17B1 /* content.js */,
+				59F77E02255E850E00EB17B1 /* popup.html */,
+				59F77E04255E850E00EB17B1 /* popup.css */,
+				59F77E06255E850E00EB17B1 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F77DDA255E850A00EB17B1 /* PiP Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F77E10255E850E00EB17B1 /* Build configuration list for PBXNativeTarget "PiP Go" */;
+			buildPhases = (
+				59F77DD7255E850A00EB17B1 /* Sources */,
+				59F77DD8255E850A00EB17B1 /* Frameworks */,
+				59F77DD9255E850A00EB17B1 /* Resources */,
+				59F77E0F255E850E00EB17B1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F77DF0255E850D00EB17B1 /* PBXTargetDependency */,
+			);
+			name = "PiP Go";
+			productName = "PiP Go";
+			productReference = 59F77DDB255E850A00EB17B1 /* PiP Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F77DEC255E850D00EB17B1 /* PiP Go Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F77E0C255E850E00EB17B1 /* Build configuration list for PBXNativeTarget "PiP Go Extension" */;
+			buildPhases = (
+				59F77DE9255E850D00EB17B1 /* Sources */,
+				59F77DEA255E850D00EB17B1 /* Frameworks */,
+				59F77DEB255E850D00EB17B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PiP Go Extension";
+			productName = "PiP Go Extension";
+			productReference = 59F77DED255E850D00EB17B1 /* PiP Go Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F77DD3255E850A00EB17B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					59F77DDA255E850A00EB17B1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					59F77DEC255E850D00EB17B1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 59F77DD6255E850A00EB17B1 /* Build configuration list for PBXProject "PiP Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59F77DD2255E850A00EB17B1;
+			productRefGroup = 59F77DDC255E850A00EB17B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F77DDA255E850A00EB17B1 /* PiP Go */,
+				59F77DEC255E850D00EB17B1 /* PiP Go Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F77DD9255E850A00EB17B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F77DE7255E850D00EB17B1 /* Assets.xcassets in Resources */,
+				59F77DE3255E850A00EB17B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F77DEB255E850D00EB17B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F77DFF255E850E00EB17B1 /* background.js in Resources */,
+				59F77E05255E850E00EB17B1 /* popup.css in Resources */,
+				59F77E03255E850E00EB17B1 /* popup.html in Resources */,
+				59F77DFB255E850E00EB17B1 /* images in Resources */,
+				59F77DFD255E850E00EB17B1 /* manifest.json in Resources */,
+				59F77DF9255E850E00EB17B1 /* _locales in Resources */,
+				59F77E01255E850E00EB17B1 /* content.js in Resources */,
+				59F77E07255E850E00EB17B1 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F77DD7255E850A00EB17B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F77DE5255E850A00EB17B1 /* ViewController.swift in Sources */,
+				59F77DE0255E850A00EB17B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F77DE9255E850D00EB17B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F77DF6255E850D00EB17B1 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F77DF0255E850D00EB17B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F77DEC255E850D00EB17B1 /* PiP Go Extension */;
+			targetProxy = 59F77DEF255E850D00EB17B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F77DE1255E850A00EB17B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F77DE2255E850A00EB17B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F77E0A255E850E00EB17B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59F77E0B255E850E00EB17B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		59F77E0D255E850E00EB17B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PiP Go Extension/PiP_Go_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAWWZVREY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PiP Go Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "thoamsy.PiP-Go-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59F77E0E255E850E00EB17B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PiP Go Extension/PiP_Go_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAWWZVREY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PiP Go Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "thoamsy.PiP-Go-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		59F77E11255E850E00EB17B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PiP Go/PiP_Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAWWZVREY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PiP Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "thoamsy.PiP-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59F77E12255E850E00EB17B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PiP Go/PiP_Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAWWZVREY3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PiP Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "thoamsy.PiP-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F77DD6255E850A00EB17B1 /* Build configuration list for PBXProject "PiP Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F77E0A255E850E00EB17B1 /* Debug */,
+				59F77E0B255E850E00EB17B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F77E0C255E850E00EB17B1 /* Build configuration list for PBXNativeTarget "PiP Go Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F77E0D255E850E00EB17B1 /* Debug */,
+				59F77E0E255E850E00EB17B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F77E10255E850E00EB17B1 /* Build configuration list for PBXNativeTarget "PiP Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F77E11255E850E00EB17B1 /* Debug */,
+				59F77E12255E850E00EB17B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F77DD3255E850A00EB17B1 /* Project object */;
+}
