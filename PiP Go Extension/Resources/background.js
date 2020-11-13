@@ -1,6 +1,17 @@
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+  if (request.video) {
+    const PipButton = document.createElement('button');
+    PipButton.textContent = 'Enter PiP';
+    PipButton.addEventListener('click', () => {
+      request.video.requestPictureInPicture().then(() => {
+        PipButton.textContent = 'Exit PiP';
+      });
+    });
+    // request.video.parentElement.append(PipButton);
+    PipButton.style.position = 'relative';
+    PipButton.style.zIndex = 10;
 
-    if (request.greeting === "hello")
-        sendResponse({ farewell: "goodbye" });
+    sendResponse({ PipButton });
+  }
+  sendResponse({ message: 'nothing' });
 });
